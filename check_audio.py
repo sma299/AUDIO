@@ -1,4 +1,3 @@
-                                               # NOTE: this requires PyAudio because it uses the Microphone class
 import speech_recognition as sr
 r = sr.Recognizer()
 with sr.Microphone() as source:                # use the default microphone as the audio source
